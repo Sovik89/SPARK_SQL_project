@@ -4,7 +4,7 @@
 SPARK SQL Project to convert csv files for NYSE data to parquet file with partition key as trademonth(YYYYmm). The target table or the golden data is created using Delta table using DeltaLake combining with spark SQL.
 Also depicting the shortcomings of SPARK sql comparing with HIVE SQL.
 
-# Steps for data loading from hdfs golden location to gcs bucket hence consumed by GBQ<br/>
+## Steps for data loading from hdfs golden location to gcs bucket hence consumed by GBQ<br/>
 <br />
 1. create separate bucket<br />
 2. create dataset and corresponding table<br />
